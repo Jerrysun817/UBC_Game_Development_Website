@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 
-import logo from "../../assets/gameDevIcon.png";
+import logo from "../../assets/logo.png";
 import styles from "./NavBar.module.css";
 import Button from "../Button/Button";
 
@@ -13,7 +13,7 @@ export const NavBar = () => {
       >
         <div className="absolute left-6">
           <Link to="/">
-            <img src={logo} className="w-20 h-20" />
+            <img src={logo} className="h-10" />
           </Link>
         </div>
 

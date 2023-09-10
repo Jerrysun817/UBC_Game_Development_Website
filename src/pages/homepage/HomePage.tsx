@@ -1,3 +1,9 @@
 export const HomePage = () => {
-  return <div className=" bg-blue-500 text-white p-4 h-[1000px]">HomePage</div>;
+  return (
+    <main>
+      <h1 className="text-3xl font-extrabold mb-4">Grow Games With Us From The Ground Up</h1>
+
+      <p>We bring together artists</p>
+    </main>
+  );
 };

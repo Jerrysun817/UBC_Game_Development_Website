@@ -1,5 +1,3 @@
-
-
 import { Route, Routes } from "react-router";
 import { HomePage } from "./pages/homepage/HomePage";
 import { AboutPage } from "./pages/aboutpage/AboutPage";
