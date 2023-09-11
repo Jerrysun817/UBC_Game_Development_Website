@@ -6,7 +6,7 @@ export const NavBar = () => {
   return (
     <nav>
       <div
-        className={`relative flex items-center bg-black w-full z-50 h-[150px] px-6`}
+        className={`fixed flex items-center bg-black w-full z-50 h-[150px] px-6`}
       >
         <div className="absolute left-6">
           <Link to="/">
