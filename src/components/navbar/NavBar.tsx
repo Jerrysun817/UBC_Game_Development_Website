@@ -11,7 +11,7 @@ export const NavBar = () => {
       <div
         className={`relative flex items-center justify-center bg-black w-full z-50 h-[150px] px-6`}
       >
-        <div className="absolute left-6">
+        <div className="absolute left-6 hover:opacity-70 transition">
           <Link to="/">
             <img src={logo} className="h-10" />
           </Link>

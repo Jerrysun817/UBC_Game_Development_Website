@@ -2,14 +2,15 @@ import Button from "../../components/Button/Button";
 
 export const HomePage = () => {
   return (
-    <main className="flex flex-col justify-center align-middle">
-      <h1 className="text-5xl font-extrabold mb-4">Grow Games With Us From The Ground Up</h1>
+    <main className="flex flex-col justify-center content-center items-center">
+      <h1 className="text-6xl font-extrabold mb-4 text-center w-2/3 p-5 mt-20">Grow Games With Us <br /> From The Ground Up</h1>
 
-      <p>We bring together artists, programmers, writers, and musicians to make games! No previous experience required, you can join a team and start working on a game with other budding developers! 
-        Keep an eye on our discord for the sign up forms, which will be going up after our Launch Party!
+      <p className="text-center w-2/3 p-5">We bring together artists, programmers, writers, and musicians to make games! No<br/> previous experience required, you can join a team and start working on a game<br/> with other budding developers!<br /> 
       </p>
 
-      <Button className="bg-green m-auto">Join our Discord Server</Button>
+      <p className="mt-5">Keep an eye on our discord for the sign up forms, which will be going up after our Launch Party!</p>
+
+      <Button className="bg-green m-auto my-10">Join our Discord Server</Button>
     </main>
   );
 };
