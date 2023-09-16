@@ -11,7 +11,6 @@ import { Menu } from "@mui/base/Menu";
 
 export const NavBar = () => {
   const [isEventsOpen, setIsEventsOpen] = useState(false);
-  const [isGamesOpen, setIsGamesOpen] = useState(false);
   return (
     <>
       <nav>
@@ -30,13 +29,13 @@ export const NavBar = () => {
             <Link className="hover:opacity-70 transition" to="/about">
               About
             </Link>
-            <Dropdown open={isGamesOpen}>
+            <Dropdown open={isEventsOpen}>
               <div
                 onMouseOver={() => {
-                  setIsGamesOpen(true);
+                  setIsEventsOpen(true);
                 }}
                 onMouseLeave={() => {
-                  setIsGamesOpen(false);
+                  setIsEventsOpen(false);
                 }}
               >
                 <Link className="hover:opacity-70 transition" to="/events">
@@ -79,63 +78,10 @@ export const NavBar = () => {
                 </Menu>
               </div>
             </Dropdown>
-            <Dropdown open={isEventsOpen}>
-              <div
-                onMouseOver={() => {
-                  setIsEventsOpen(true);
-                }}
-                onMouseLeave={() => {
-                  setIsEventsOpen(false);
-                }}
-              >
-                <Link className="hover:opacity-70 transition" to="/games">
-                  Games
-                </Link>
+            <Link className="hover:opacity-70 transition" to="/games">
+              Games
+            </Link>
 
-                <Menu className={`absolute pt-6 bg-black bg-opacity-50 }`}>
-                  <MenuItem>
-                    <Link
-                      className="hover:opacity-70 transition"
-                      to="/2022-2023games"
-                    >
-                      2022-2023
-                    </Link>
-                  </MenuItem>
-                  <MenuItem className="pt-2">
-                    <Link
-                      className="hover:opacity-70 transition"
-                      to="/2021-2022games"
-                    >
-                      2021-2022
-                    </Link>
-                  </MenuItem>
-                  <MenuItem className="pt-2">
-                    <Link
-                      className="hover:opacity-70 transition"
-                      to="/2019-2020games"
-                    >
-                      2019-2020
-                    </Link>
-                  </MenuItem>
-                  <MenuItem className="pt-2">
-                    <Link
-                      className="hover:opacity-70 transition"
-                      to="/2018-2019games"
-                    >
-                      2018-2019
-                    </Link>
-                  </MenuItem>
-                  <MenuItem className="pt-2">
-                    <Link
-                      className="hover:opacity-70 transition"
-                      to="/legacy-games"
-                    >
-                      LEGACY
-                    </Link>
-                  </MenuItem>
-                </Menu>
-              </div>
-            </Dropdown>
             <Link className="hover:opacity-70 transition" to="/partners">
               Partners
             </Link>

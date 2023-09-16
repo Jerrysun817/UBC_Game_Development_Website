@@ -17,12 +17,6 @@ function App() {
         <Route path="/partners" element={<PartnersPage />} />
         <Route path="/games" element={<GamesPage />} />
 
-        <Route path="/2022-2023games" element={<GamesPage />} />
-        <Route path="/2021-2022games" element={<GamesPage />} />
-        <Route path="/2019-2020games" element={<GamesPage />} />
-        <Route path="/2018-2019games" element={<GamesPage />} />
-        <Route path="/legacy-games" element={<GamesPage />} />
-
         <Route path="/gameon-conference" element={<EventsPage />} />
         <Route path="/yearend-showcase" element={<EventsPage />} />
         <Route path="/launch-party" element={<EventsPage />} />
