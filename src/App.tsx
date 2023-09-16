@@ -16,6 +16,13 @@ function App() {
         <Route path="/events" element={<EventsPage />} />
         <Route path="/partners" element={<PartnersPage />} />
         <Route path="/games" element={<GamesPage />} />
+
+        <Route path="/gameon-conference" element={<EventsPage />} />
+        <Route path="/yearend-showcase" element={<EventsPage />} />
+        <Route path="/launch-party" element={<EventsPage />} />
+        <Route path="/community-events" element={<EventsPage />} />
+
+        <Route path="/*" element={<h1>Page does not exist</h1>} />
       </Routes>
     </div>
   );
