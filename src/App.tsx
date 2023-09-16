@@ -5,6 +5,7 @@ import { NavBar } from "./components/navbar/NavBar";
 import { EventsPage } from "./pages/eventspage/EventsPage";
 import { PartnersPage } from "./pages/partnerspage/PartnersPage";
 import { GamesPage } from "./pages/gamespage/EventsPage";
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/partners" element={<PartnersPage />} />
         <Route path="/games" element={<GamesPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
