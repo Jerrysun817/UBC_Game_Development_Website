@@ -79,7 +79,7 @@ export const HomePage = () => {
       {/* LIST SECTION END */}
       {/* GAME RECOMMENDATION SECTION END*/}
       <section>
-
+        <div>nothing yet lol</div>
       </section>
       {/* GAME RECOMMENDATION SECTION END*/}
 
