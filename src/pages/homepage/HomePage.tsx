@@ -7,7 +7,7 @@ export const HomePage = () => {
     <main className="w-full h-full overflow-hidden relative flex flex-col">
 
       {/* HERO SECTION START*/}
-      <section className="h-5/6 flex flex-col items-center gap-6">
+      <section className="h-5/6 flex flex-col items-center gap-6 pattern">
         <h1 className="
         w-full
         h-full
@@ -34,7 +34,7 @@ export const HomePage = () => {
           after our Launch Party!
         </p>
 
-        <Button className="bg-green m-auto mt-10 mb-40 px-6">Join our Discord Server</Button>
+        <Button className="bg-green m-auto mt-10 mb-40 px-6">Join Our Discord Server</Button>
       </section>
       {/* HERO SECTION END */}
       {/* SPONSOR SECTION START*/}
